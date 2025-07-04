@@ -18,7 +18,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {
+        "http://localhost:4200",
+        "https://evelyn-rental.netlify.app"
+})
 @RestController
 @RequestMapping("/rentalevelyn/v1.0")
 public class RentalController {
