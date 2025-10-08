@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: my-springboot-app
+    env: java
+    plan: free
+    buildCommand: ./mvnw clean package -DskipTests
+    startCommand: java -jar target/*.jar
+    envVars:
+      - key: JAVA_VERSION
+        value: 21
+      - key: MONGODB_URI
+        value: mongodb+srv://luisconeo891124:1044915846leoC.@clusterbt.aosuoxe.mongodb.net/?retryWrites=true&w=majority&appName=ClusterBt
