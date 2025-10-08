@@ -7,6 +7,8 @@ services:
     startCommand: java -jar target/*.jar
     envVars:
       - key: JAVA_VERSION
-        value: 21
+        value: 17
       - key: MONGODB_URI
         value: mongodb+srv://luisconeo891124:1044915846leoC.@clusterbt.aosuoxe.mongodb.net/?retryWrites=true&w=majority&appName=ClusterBt
+      - key: PORT
+        value: 8080
