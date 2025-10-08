@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.leoc.springboot.resource</groupId>
-	<artifactId>rental-evelyn</artifactId>
+	<artifactId>bt-tar</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>resource-client</name>
 	<description>Resource server - client</description>
