@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin(origins = {
         "http://localhost:4200",
-        "https://evelyn-rental.netlify.app"
+        "https://bttar-frotend.netlify.app"
 })
 @RestController
 @RequestMapping("/bttar/v1.0/auth")

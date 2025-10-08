@@ -14,6 +14,7 @@ import java.util.Optional;
 
 @CrossOrigin(origins = {
         "http://localhost:4200",
+        "https://bttar-frotend.netlify.app/"
 })
 @RestController
 @RequestMapping("/bttar/v1.0")
