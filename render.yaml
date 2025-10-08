@@ -1,7 +1,7 @@
 services:
   - type: web
-    name: my-springboot-app
-    env: java
+    name: bt-tar-app
+    env: docker
     plan: free
     buildCommand: ./mvnw clean package -DskipTests
     startCommand: java -jar target/*.jar
